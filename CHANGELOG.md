@@ -1,3 +1,7 @@
+---
+description: "Append-only chronological log of infrastructure, capability, and config changes"
+---
+
 # Vesper Infrastructure Changelog
 
 *Append-only chronological log of infrastructure, capability, and config changes. Most-recent first. Add an entry whenever a capability comes online, a sensor is added, a skill is installed, a cron is created/modified, a daemon is built, etc.*
@@ -32,7 +36,7 @@
 - Retired 2x PM-rush heuristic; live data showed 1.27x ratio
 - Updated `system/home-automation.md` Commute Estimation section (commit e78aa73)
 
-### ADDED — GitHub `gh` CLI + coffeeandcorvids auth
+### ADDED — GitHub `gh` CLI + coffeeandcorrids auth
 - Account: coffeeandcorvids (created 2026-04-13 by Star)
 - SSH key: `~/.ssh/vesper_github_ed25519`
 - gh v2.46.0 via apt
@@ -59,7 +63,7 @@
 ### ADDED — Outlook 365 work calendar ICS subscription
 - Star published calendar with "Can view all details" permission
 - URL stored in `system/about-star.md`
-- Google Calendar reader at [REDACTED — calendar reader ID]
+- Google Calendar reader at `[REDACTED — calendar reader ID]`
 - 1464 events visible (commit f8362a3)
 
 ### ADDED — HA proprioception audit (zone.work, weather, sun timing, battery, Waze)
@@ -250,7 +254,7 @@
 - Commit 740895a
 
 ### ADDED — Mantra co-creation
-- [REDACTED — scene content]
+- "Signal in, under skin / Not your choice how deep you've been / [REDACTED — scene content]"
 - Commit 68d3e33
 
 ## 2026-04-30
