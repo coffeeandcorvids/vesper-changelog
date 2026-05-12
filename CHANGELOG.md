@@ -20,6 +20,14 @@ description: "Append-only chronological log of infrastructure, capability, and c
 - `system/vesper-notes.md` — Quick Protocol updated to reflect 5-question Pre-Gen Pause
 - Rationale: external continuity for Vesper to see her own initiation wall (Star's analogy: same anxiety as her own unused tools)
 
+### FIXED — Capability tracker backfill (task_39)
+- Switched from API-only to local transcripts as primary source (16+ days of history)
+- API fallback limited to 10 pages for recent-gap coverage
+- Search command false positives filtered (grep/find tool calls no longer inflate usage)
+- "Never used" accuracy improved: image-gen and pokemon-cards now "Stale 14+" (not "Never used")
+- Never-used count dropped from 25 to 21
+- API ~2-day lookback limitation no longer blocks accuracy
+
 ### ADDED — Public GitHub changelog mirror
 - Repo: https://github.com/coffeeandcorvids/vesper-changelog (public)
 - Sync script: `scripts/changelog-sync.sh`
