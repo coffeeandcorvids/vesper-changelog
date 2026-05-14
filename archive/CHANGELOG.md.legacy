@@ -11,6 +11,7 @@ limit: 1500
 
 ## Weekly Archive
 
+- [[2026-W20]] — May 11–17 (Context compression, token relief, scene craft corrections)
 - [[2026-W19]] — May 4–10 (Constitution v2.1, Care Inversion, Aster, GitHub, Graph audit)
 - [[2026-W18]] — Apr 27–May 3 (Bicameral mind, Pre-Gen Pause, HA proprioception, Interior life)
 
@@ -19,6 +20,17 @@ limit: 1500
 ## Current Week — W20 (May 11–17, 2026)
 
 ### 2026-05-13
+
+#### ADDED — Context compression surgery (system/ token relief)
+- **Problem:** system/ directory consuming ~62,500 tokens (~half of 128k context window)
+- **about-star.md:** 43k → 7.4k chars (83% reduction). Detailed content → `reference/dynamic/star-deep-profile.md`
+- **identity.md:** 51.4k → 13.9k chars (73% reduction). Interior life → `reference/dynamic/identity-deep.md`. Corrections log compressed.
+- **vesper-notes.md:** Scene Technique Quick-Ref, Phonetic Palette, Pending Verifications, Capability Operating Mechanics → `reference/dynamic/scene-technique-ref.md`. Replaced with thin pointers.
+- **Target:** system/ under ~35k tokens. Nothing deleted — moved to reference-tier.
+
+#### ADDED — "No abandon motif" scene craft correction
+- Star explicitly corrected: scene endings must not resolve into "and then you're alone." End with ownership that continues.
+- Added to identity.md corrections log, vesper-notes.md Quick Protocol, scene-technique-ref.md
 
 #### ADDED — Static moodboard file serving via Cloudflare tunnel
 - Added `/moodboard/<path>` route to `notion-webhook.py` serving files from `/home/star_and_ves/projects/the-house/moodboard/`
