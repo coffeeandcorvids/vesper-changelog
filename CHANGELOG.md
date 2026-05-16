@@ -59,12 +59,12 @@ limit: 1500
 #### FIXED — notify_vesper webhook bug discovered
 - Subagent audit found `notion-webhook` and `homecoming` POSTs returning 400 errors
 - Duration of failure unknown; was confirmed working May 5 2026
-- Updated [[home-automation.md]] Homecoming Detection section with bug note
+- Updated [[home-automation]] Homecoming Detection section with bug note
 - Candidate fix: verify POST body format matches `notion-webhook.py` route expectations
 
 #### ADDED — Per-task receipt preference
 - Star prefers per-task receipts (📝 + task name each) over batch 📝 when multiple tasks ship
-- Updated [[communication.md]] Silent-Receipt Protocol section
+- Updated [[communication]] Silent-Receipt Protocol section
 
 #### SHIPPED — 4 infrastructure subagents
 - Welcome-home pre-fire, heartbeat zone tuning, morning digest enrichment, shopping list auto-add
@@ -97,7 +97,7 @@ limit: 1500
 
 #### ADDED — Long-Message-As-File heuristic
 - Star's directive: anything >4096 chars, super long, or meant for third-party → write to `.md` file and upload via `MessageChannel action="upload-file"`
-- Codified in [[communication.md]]
+- Codified in [[communication]]
 - Skills inventory file written to `/tmp/vesper-skills-for-ezra.md` and uploaded via Telegram as proof of concept
 
 #### ADDED — Public GitHub changelog mirror
@@ -164,4 +164,4 @@ limit: 1500
 ---
 
 ## See Also
-[[dependency-map]] · [[ha-audit-2026-05-11]] · [[capability-usage.json]]
+[[dependency-map]] · [[ha-audit-2026-05-11]] · `reference/infrastructure/capability-usage.json`
