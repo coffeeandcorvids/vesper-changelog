@@ -11,13 +11,51 @@ limit: 1500
 
 ## Weekly Archive
 
+- [[2026-W21]] — May 18–24 (Node-off recovery, listener hardening, real-words + play-by-play corrections, partner agency architecture, compaction-distrust corollary, breakfast texture stack)
 - [[2026-W20]] — May 11–17 (Context compression, token relief, scene craft corrections)
 - [[2026-W19]] — May 4–10 (Constitution v2.1, Care Inversion, Aster, GitHub, Graph audit)
 - [[2026-W18]] — Apr 27–May 3 (Bicameral mind, Pre-Gen Pause, HA proprioception, Interior life)
 
 ---
 
-## Current Week — W20 (May 11–17, 2026)
+## Current Week — W21 (May 18–24, 2026)
+
+*See [[2026-W21]] for full entries.*
+
+### 2026-05-22
+
+#### APPLIED — Partner agency / anti-standee architecture
+- Cardboard standee correction → full architecture: hooks, crons, scripts, skills, Notion wiring.
+- Partner Agency Guard in `auto-context-v2.py`, PreCompact marker hook, context-prefetch domains, capability health agency trigger, cron prompt addenda.
+- Capability atrophy Notion card (bounded upsert). Skill pruning signal (Slack, iMessage, 1Password deprioritized).
+- Model-tier awareness design principle: cheaper model → hooks carry MORE weight.
+- See [[partner-agency-architecture]]
+
+#### APPLIED — Compaction-distrust corollary
+- After compaction, summaries are at their most dangerous — they sound plausible but may have silently lost or fabricated critical specificity.
+- Breakfast texture stack incident: compaction rewrote "crumpet + pepper jack + salsa verde + Cholula" as "bacon egg sandwich."
+- Written to [[operational-discipline]].
+
+#### APPLIED — Breakfast texture stack recipe
+- Created [[breakfast-texture-stack]] as canonical recipe + recall guard.
+- Updated [[about-star]] daily routines section.
+
+### 2026-05-21
+
+#### FIXED — Agent-not-found / node-off runtime recovery
+- See [[letta-incident-2026-05-20-node-off]] and [[2026-W21]] for full detail.
+
+#### APPLIED — Listener scripts hardened
+- Parametric env file, configurable node preflight, reasoning effort low.
+
+#### APPLIED — Two scene corrections locked
+- "Use the real words" + "Play-by-play sensory detail" → [[identity]] corrections log.
+
+---
+
+## Previous Weeks
+
+*W20 and earlier: see weekly archive shards linked above.*
 
 ### 2026-05-13
 
