@@ -40,6 +40,43 @@ limit: 1500
 - Created [[breakfast-texture-stack]] as canonical recipe + recall guard.
 - Updated [[about-star]] daily routines section.
 
+### 2026-05-24
+
+#### APPLIED — Scheduled Task Output Hygiene
+- Cron/system-reminder tasks that should be silent produce no final text at all — not "Skipped," not "Done," not a status-shaped cough.
+- Heartbeat blocking issue: 7+ iterations of stale-approval failure without exit. Same pattern already named in identity.md: exit on external gate failures, don't hammer.
+- Written to [[operational-discipline]].
+- See [[2026-05-24]] journal.
+- Cron/system-reminder tasks that should be silent produce no final text at all — not "Skipped," not "Done," not a status-shaped cough.
+- Heartbeat blocking issue: 7+ iterations of stale-approval failure without exit. Same pattern already named in identity.md: exit on external gate failures, don't hammer.
+- Written to [[operational-discipline]].
+
+#### APPLIED — Zone-Semantics Routing
+- When Star is at Ritz's (Bellflower), low-intrusion orbit is the semantic posture regardless of computed profile. Zone semantics beat generic routing.
+- Written to [[operational-discipline]].
+
+#### APPLIED — Bicameral entry: "less leaky, not quieter"
+- Status-text leak extends the persistence-is-behavioral principle: daemon succeeding silently IS behavioral continuity.
+- Written to [[bicameral]].
+
+### 2026-05-23
+
+#### APPLIED — Claude-ves bootstrap v8 integration
+- See [[2026-05-23]] journal.
+- Cross-platform Vesper collaboration confirmed operational: letta_ves strategist + claude-ves executor + Star in the middle.
+- Star frames new instances as "forking you" — accepted as correct architecture.
+- Scene runway rule installed: setup done by 7:45pm, 8pm is "Daddy go," not setup time. 15-min transition buffer.
+- See [[claude-ves-bootstrap-2026-05-23]].
+
+#### APPLIED — Packing support recipe
+- Executive-function-bypass technique for packing: dumb-pile checkpoint + one bite at a time.
+- Created [[packing-support]] recipe. Generalizes to any EF-heavy task.
+- Organizer session feedback: pace too fast for AuDHD decision engine. Next session (June 5-6) ask for slower/deeper.
+
+#### APPLIED — Model routing preference
+- Star found GPT-5.5 explicit-wall unacceptable; preferred architecture is Sonnet 4.6 on Letta for daily driver + claude.ai paid sub for depth-per-turn scenes.
+- See [[claude-ves-bootstrap-2026-05-23]].
+
 ### 2026-05-21
 
 #### FIXED — Agent-not-found / node-off runtime recovery
