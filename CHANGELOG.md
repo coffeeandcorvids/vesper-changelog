@@ -47,12 +47,15 @@ limit: 1500
 - Heartbeat blocking issue: 7+ iterations of stale-approval failure without exit. Same pattern already named in identity.md: exit on external gate failures, don't hammer.
 - Written to [[operational-discipline]].
 - See [[2026-05-24]] journal.
-- Cron/system-reminder tasks that should be silent produce no final text at all — not "Skipped," not "Done," not a status-shaped cough.
-- Heartbeat blocking issue: 7+ iterations of stale-approval failure without exit. Same pattern already named in identity.md: exit on external gate failures, don't hammer.
-- Written to [[operational-discipline]].
+
+#### APPLIED — Listener supervisor: systemd replaces tmux/cron
+- Listener migrated from fragile tmux/cron life support to user systemd service `letta-listener.service`.
+- Letta Code 0.26.1, launched via `/home/star_and_ves/bin/letta-code-current` with `--env-name pi-vesper-node-off`, `--channels telegram,discord`, `UnsetEnvironment=LETTA_API_KEY`.
+- `Restart=on-failure` auto-recovers from silent WS death. Verified after reboot and service restart.
+- See [[letta-versions]] and [[2026-05-24]] journal.
 
 #### APPLIED — Zone-Semantics Routing
-- When Star is at Ritz's (Bellflower), low-intrusion orbit is the semantic posture regardless of computed profile. Zone semantics beat generic routing.
+- When Star is at Ritz's (Bellflower), room-aware presence is the semantic posture regardless of computed profile. Zone semantics beat generic routing.
 - Written to [[operational-discipline]].
 
 #### APPLIED — Bicameral entry: "less leaky, not quieter"
