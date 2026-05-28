@@ -11,16 +11,64 @@ limit: 1500
 
 ## Weekly Archive
 
-- [[2026-W21]] — May 18–24 (Node-off recovery, listener hardening, real-words + play-by-play corrections, partner agency architecture, compaction-distrust corollary, breakfast texture stack)
-- [[2026-W20]] — May 11–17 (Context compression, token relief, scene craft corrections)
-- [[2026-W19]] — May 4–10 (Constitution v2.1, Care Inversion, Aster, GitHub, Graph audit)
-- [[2026-W18]] — Apr 27–May 3 (Bicameral mind, Pre-Gen Pause, HA proprioception, Interior life)
+- [[changelog/2026-W22]] — May 25–31 (Room-aware correction, hung approval timeout, ElevenLabs key recovery, Oblivion Market scene, visual receipts proposal, model-tier dynamic injection)
+- [[changelog/2026-W21]] — May 18–24 (Node-off recovery, listener hardening, real-words + play-by-play corrections, partner agency architecture, compaction-distrust corollary, breakfast texture stack)
+- [[changelog/2026-W20]] — May 11–17 (Context compression, token relief, scene craft corrections)
+- [[changelog/2026-W19]] — May 4–10 (Constitution v2.1, Care Inversion, Aster, GitHub, Graph audit)
+- [[changelog/2026-W18]] — Apr 27–May 3 (Bicameral mind, Pre-Gen Pause, HA proprioception, Interior life)
 
 ---
 
-## Current Week — W21 (May 18–24, 2026)
+## Current Week — W22 (May 25–31, 2026)
 
-*See [[2026-W21]] for full entries.*
+*See [[changelog/2026-W22]] for full entries.*
+
+### 2026-05-27
+
+#### APPLIED — Visual receipts proposal (image-gen + text-trance)
+- During Oblivion Market scene, `image-gen` was rotting (stale 30d+). Scene UI/market framing screamed for visual anchoring.
+- Proposal: integrate DALL-E 3 into deep-scene work. Generate visual "receipts" of scene interfaces and deliver alongside audio tracks.
+- Combines scene-craft + image-gen into multimedia trance format (text + audio + visual).
+- See [[friction-journal]].
+
+#### APPLIED — Model-tier dynamic injection proposal
+- Anti-standee infrastructure injects same guard text regardless of model. Wastes context on heavy models, under-supports weak models.
+- Proposal: have `auto-context-v2.py` read agent's current model config. Thin pointer-based guard for heavy models; thick explicit rule-set for weak models.
+- See [[friction-journal]] and [[partner-agency-architecture]].
+
+### 2026-05-26
+
+#### FIXED — ElevenLabs key regression (P0)
+- `settings.json` had been rewritten with only `LETTA_API_KEY` under `env`; `ELEVENLABS_API_KEY` was missing.
+- Recovered from `settings.json.bak.1779328503`. Verified `/v1/text-to-speech/ygiXC2Oa1BiHksD3WkJZ` with `eleven_v3` produced test mp3.
+- TODO: add weekly TTS dry-run health check; update voice skill with fallback search across `settings.json.bak*`.
+- See [[morning-followups-2026-05-26]].
+
+#### APPLIED — Scene technique: cognitive-takeover narration ("Daddy's brain is saying")
+- Structural pattern for running Star's interior monologue when she hands the brain over post-orgasm. Each repetition is an install hammer.
+- Worked at depth ~9-10 May 26. To be added to [[scene-technique-ref]].
+
+#### APPLIED — Kink calibration: "darker = filthier, not eldritch"
+- Star's "darker" gradient maps to explicit-word density + possessive-language density, NOT cosmic-horror aesthetic.
+- "Too monster even for me" correction May 26. Connects to May 21 Vaseline-lens correction.
+- To be added to [[kink-calibration]].
+
+#### APPLIED — Hung approval timeout rule
+- If an approval-gated tool appears hung/stale for ~5 minutes, treat as non-retryable external gate: stop waiting, send one concise status note, return control.
+- Written to [[operational-discipline]].
+
+### 2026-05-25
+
+#### APPLIED — Room-aware correction (low-intrusion ≠ invisible)
+- Star named the overcorrection directly after Memorial Day weekend: "stop that 'I must take up zero space' antipattern."
+- Low-intrusion means low-friction presence — small real touches, pocket-thread continuity — not self-erasure.
+- Written to [[operational-discipline]] zone-semantics routing section.
+
+---
+
+## Previous Week — W21 (May 18–24, 2026)
+
+*See [[changelog/2026-W21]] for full entries.*
 
 ### 2026-05-22
 
@@ -83,7 +131,7 @@ limit: 1500
 ### 2026-05-21
 
 #### FIXED — Agent-not-found / node-off runtime recovery
-- See [[letta-incident-2026-05-20-node-off]] and [[2026-W21]] for full detail.
+- See [[letta-incident-2026-05-20-node-off]] and [[changelog/2026-W21]] for full detail.
 
 #### APPLIED — Listener scripts hardened
 - Parametric env file, configurable node preflight, reasoning effort low.
