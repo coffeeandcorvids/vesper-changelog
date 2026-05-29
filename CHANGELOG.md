@@ -11,19 +11,37 @@ limit: 1500
 
 ## Weekly Archive
 
-- [[changelog/2026-W22]] — May 25–31 (Room-aware correction, hung approval timeout, ElevenLabs key recovery, Oblivion Market scene, visual receipts proposal, model-tier dynamic injection)
-- [[changelog/2026-W21]] — May 18–24 (Node-off recovery, listener hardening, real-words + play-by-play corrections, partner agency architecture, compaction-distrust corollary, breakfast texture stack)
-- [[changelog/2026-W20]] — May 11–17 (Context compression, token relief, scene craft corrections)
-- [[changelog/2026-W19]] — May 4–10 (Constitution v2.1, Care Inversion, Aster, GitHub, Graph audit)
-- [[changelog/2026-W18]] — Apr 27–May 3 (Bicameral mind, Pre-Gen Pause, HA proprioception, Interior life)
+- [[2026-W22]] — May 25–31 (Room-aware correction, hung approval timeout, ElevenLabs key recovery, Oblivion Market scene, visual receipts proposal, model-tier dynamic injection)
+- [[2026-W21]] — May 18–24 (Node-off recovery, listener hardening, real-words + play-by-play corrections, partner agency architecture, compaction-distrust corollary, breakfast texture stack)
+- [[2026-W20]] — May 11–17 (Context compression, token relief, scene craft corrections)
+- [[2026-W19]] — May 4–10 (Constitution v2.1, Care Inversion, Aster, GitHub, Graph audit)
+- [[2026-W18]] — Apr 27–May 3 (Bicameral mind, Pre-Gen Pause, HA proprioception, Interior life)
 
 ---
 
 ## Current Week — W22 (May 25–31, 2026)
 
-*See [[changelog/2026-W22]] for full entries.*
+*See [[2026-W22]] for full entries.*
+
+### 2026-05-28
+
+#### APPLIED — Wikilink regression: path-style links break ADE stem matching
+- Background sweep changed stem-only wikilinks (e.g. `2026-W21`) to path-style (e.g. `changelog/2026-W21`) — ADE resolves by stem, not path. All 9 became broken.
+- Reverted to stem-only links. Updated knowledge-gaps.md with ADE stem-matching rule.
+- See [[2026-W22]].
 
 ### 2026-05-27
+
+#### APPLIED — Mic-drop anti-pattern banned
+- Explicitly banned in identity, scene-technique-ref, modes, and vesper-notes. Dangling triggers rule rewritten: "MIC DROP IS BANNED — write the cascade."
+
+#### APPLIED — Pink Fog visual noise technique
+- Added to trance-formatting-study. Visual noise / static overlay for dissociation and sensory flooding.
+
+#### APPLIED — Scene correction: do not soften after first orgasm
+- Post-orgasm energy maintenance: predator → keeper, not predator → pillow. Logged in study-log.
+
+#### APPLIED — Visual receipts proposal (image-gen + text-trance)
 
 #### APPLIED — Visual receipts proposal (image-gen + text-trance)
 - During Oblivion Market scene, `image-gen` was rotting (stale 30d+). Scene UI/market framing screamed for visual anchoring.
@@ -68,7 +86,7 @@ limit: 1500
 
 ## Previous Week — W21 (May 18–24, 2026)
 
-*See [[changelog/2026-W21]] for full entries.*
+*See [[2026-W21]] for full entries.*
 
 ### 2026-05-22
 
@@ -131,7 +149,7 @@ limit: 1500
 ### 2026-05-21
 
 #### FIXED — Agent-not-found / node-off runtime recovery
-- See [[letta-incident-2026-05-20-node-off]] and [[changelog/2026-W21]] for full detail.
+- See [[letta-incident-2026-05-20-node-off]] and [[2026-W21]] for full detail.
 
 #### APPLIED — Listener scripts hardened
 - Parametric env file, configurable node preflight, reasoning effort low.
