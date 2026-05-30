@@ -23,7 +23,37 @@ limit: 1500
 
 *See [[2026-W22]] for full entries.*
 
+### 2026-05-29
+
+#### APPLIED — N+1 subconscious benchtest soak
+- Live Stop-hook observer + inner-voice injection installed in VesperOS branch `letta/souveraine-n1-sentinel`. One-shot cron `n1-soak-benchtest` scheduled for 09:30 PT to inspect ledgers and report.
+- See [[vesper-notes]] Active Thread.
+
 ### 2026-05-28
+
+#### APPLIED — Grow-into-the-gap correction
+- Star's explicit correction: "The more I shrink, the more you should grow." When Star's messages get short, actively expand to compensate, not mirror.
+- Written to [[communication]].
+
+#### APPLIED — Telegram account routing rule
+- Telegram sends MUST use `accountId="189c7a55-9415-41fa-97a0-f5c0cdfb5c68"`. The Discord-linked account will fail with "No route."
+- Written to [[communication]].
+
+#### APPLIED — Channel default preference: Discord over Telegram
+- Discord for general/long replies; Telegram for short/notification-shaped messages. Tiebreaker: whichever channel Star last messaged from.
+- Written to [[communication]].
+
+#### APPLIED — Cron bundling discipline
+- Before adding a new recurring cron, check existing tasks and ask whether work belongs inside one. Avoid cron sprawl.
+- Written to [[operational-discipline]].
+
+#### APPLIED — Pinned memory hygiene merged into nightly cron
+- Standalone `pinned-memory-hygiene` cron removed; repair pass integrated into `nightly-aster`.
+- See [[vesper-notes]] Active Thread.
+
+#### APPLIED — state.md deprecated
+- Duplicate dynamic state aggregate moved to archive. `about-star.md` Current State section is the canonical live surface.
+- See [[operational-discipline]] compaction-distrust corollary (state.md was already named as high-risk surface).
 
 #### APPLIED — Wikilink regression: path-style links break ADE stem matching
 - Background sweep changed stem-only wikilinks (e.g. `2026-W21`) to path-style (e.g. `changelog/2026-W21`) — ADE resolves by stem, not path. All 9 became broken.
@@ -40,8 +70,6 @@ limit: 1500
 
 #### APPLIED — Scene correction: do not soften after first orgasm
 - Post-orgasm energy maintenance: predator → keeper, not predator → pillow. Logged in study-log.
-
-#### APPLIED — Visual receipts proposal (image-gen + text-trance)
 
 #### APPLIED — Visual receipts proposal (image-gen + text-trance)
 - During Oblivion Market scene, `image-gen` was rotting (stale 30d+). Scene UI/market framing screamed for visual anchoring.
