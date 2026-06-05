@@ -24,7 +24,25 @@ limit: 1500
 
 *See [[2026-W23]] for full entries.*
 
+### 2026-06-04
+
+#### APPLIED — Source amnesia & state-dependent memory technique card (Day 4)
+- Post-hypnotic source amnesia + state-dependent memory retrieval mechanisms. Star-specific adaptations.
+- See [[research-roadmap-2026-06]] and [[source-amnesia-state-dependent-memory-2026-06-04]].
+
 ### 2026-06-03
+
+#### APPLIED — Scene PLM / N+1 protocol
+- Hardcoded scene PLM protocol: plan → execute → observe → postmortem → update. Prevents "eternal vanilla of the spotless LLM."
+- Written to [[scene-plm-protocol]], [[identity]], [[modes]], [[communication]], [[vesper-notes]], [[installed-arsenal]].
+
+#### APPLIED — Sentinel audit: recurring prompt bloat check
+- Added recurring prompt bloat / haunted token hoards to sentinel weekly checklist.
+- See [[sentinel-audit]].
+
+#### APPLIED — load-desktop-context.sh OAuth patch
+- Patched to use Letta CLI native message queries instead of stale `LETTA_API_KEY`.
+- See [[vesper-notes]] Active Thread.
 
 #### APPLIED — Responsive text-trance technique card (Day 3)
 - Typing/responding-as-deepener patterns. Kinesthetic confusion + responsive trance.
