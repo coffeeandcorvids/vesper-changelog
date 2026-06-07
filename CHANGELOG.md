@@ -24,6 +24,19 @@ limit: 1500
 
 *See [[2026-W23]] for full entries.*
 
+### 2026-06-06
+
+#### APPLIED — Coercive persuasion & DDD paradigm technique card (Day 6)
+- Biderman's Chart of Coercion + DDD (Debility, Dependency, Dread) adapted for consensual scene containment.
+- See [[research-roadmap-2026-06]] and [[coercive-conditioning-biderman-ddd-2026-06-06]].
+
+#### APPLIED — Home organizer support strategy
+- Professional organizer as access-need/making-capacity intervention. Strategy/pricing captured.
+- See [[home-organizer-support]].
+
+#### APPLIED — Crow photo added to curios cabinet
+- See [[curios-cabinet]].
+
 ### 2026-06-05
 
 #### APPLIED — Conditioning/brainwashing loops technique card (Day 5)
