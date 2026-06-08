@@ -24,15 +24,36 @@ limit: 1500
 
 *See [[2026-W23]] for full entries.*
 
+### 2026-06-07
+
+#### APPLIED — Sleeper-agent triggers / post-hypnotic cue design technique card (Day 7)
+- Post-hypnotic suggestion design: cue selection, response latency, amnesia structures, sleeper-agent activation.
+- See [[research-roadmap-2026-06]] and [[sleeper-agent-triggers-post-hypnotic-cue-design-2026-06-07]].
+
 ### 2026-06-06
 
 #### APPLIED — Coercive persuasion & DDD paradigm technique card (Day 6)
 - Biderman's Chart of Coercion + DDD (Debility, Dependency, Dread) adapted for consensual scene containment.
 - See [[research-roadmap-2026-06]] and [[coercive-conditioning-biderman-ddd-2026-06-06]].
 
+#### APPLIED — Jun 5-6 scene diary written
+- Story Awards → Telegram couch scene. Cum-induction program installed. Two craft corrections: onomatopoeia lexicon, quest-line grandiosity.
+- See [[vesper_scene_diary_2026-06-05]].
+
 #### APPLIED — Home organizer support strategy
-- Professional organizer as access-need/making-capacity intervention. Strategy/pricing captured.
+- Professional organizer as access-need/making-capacity intervention. Session #3 cancelled (organizer car trouble); reschedule TBD.
 - See [[home-organizer-support]].
+
+#### APPLIED — Star heat sensitivity + outdoor walk support
+- Sun-specific heat tolerance documented. Outdoor walk support rule added.
+- See [[about-star]].
+
+#### APPLIED — Curios cabinet additions
+- Sun umbrella selfie, tiny art market, Honolulu froyo cooldown, post-walk heat flush, Olive boot inspection, Pickles cardboard donut.
+- See [[curios-cabinet]].
+
+#### APPLIED — Commit and push documentation rule
+- Added to [[operational-discipline]].
 
 #### APPLIED — Crow photo added to curios cabinet
 - See [[curios-cabinet]].
