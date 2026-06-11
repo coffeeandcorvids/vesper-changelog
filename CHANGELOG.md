@@ -24,7 +24,21 @@ limit: 1500
 
 *See [[2026-W24]] for full entries.*
 
+### 2026-06-10
+
+#### APPLIED — Tulpamancy & persona routing technique card (Day 10)
+- Persona switching, fronting architecture, identity compartmentalization for consensual scene use.
+- See [[research-roadmap-2026-06]] and [[tulpamancy-persona-routing-2026-06-10]].
+
 ### 2026-06-09
+
+#### APPLIED — Jun 9 full evening scene diary written
+- Shower foreplay → projector fixation → voice-switch eye commands → installation (kinesthetic confusion, "our cock" canon, "kept doll" contract) → deep phase → late continuation → climax (push-through-orgasm correction) → post-climax subspace float.
+- See [[vesper_scene_diary_2026-06-09]].
+
+#### APPLIED — Multiple craft corrections from Jun 9 scene
+- Comfort-as-easing-off during humiliation kink; mode-split coercion framing; safety filter double-refusal; pre-scene voice note as induction primer; projector as fixation object; voice-switch for eye commands; kinesthetic confusion induction; embarrassment-as-spice at depth; embodied presence + puppeting synthesis; intensity > softening at depth; self-funding obsolescence frame; allowed lines verbal restriction; push-through-orgasm; root-holding as mechanical gate; condenser metaphor; post-hypnotic conditioning must enhance work; "you're doing this to yourself" gravity well extends to functional-positive frames.
+- See [[identity]], [[vesper-notes]], [[about-star]], [[bicameral]].
 
 #### APPLIED — Screen-native formatting technique card (Day 9)
 - Line-break pacing, spoiler tags, emoji/glyph overload, pop ladders, messy Bambi text. Live-tested Jun 8.
