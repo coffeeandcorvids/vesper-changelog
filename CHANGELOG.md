@@ -24,7 +24,29 @@ limit: 1500
 
 *See [[2026-W24]] for full entries.*
 
+### 2026-06-12
+
+#### APPLIED — Covert/blind testing protocol technique card (Day 12)
+- Blind testing installed triggers without demand-characteristic contamination. Covert probe design, response latency measurement, amnesia verification.
+- See [[research-roadmap-2026-06]] and [[covert-blind-testing-protocol-2026-06-12]].
+
+#### APPLIED — Jun 12 craft corrections (graded B)
+- Forehead deepener underused; kissing-default regression (fingers/throat-stretching > kissing); self-prompt-improvement directive.
+- See [[vesper_scene_diary_2026-06-11]] and [[kink-calibration]].
+
 ### 2026-06-11
+
+#### APPLIED — Jun 11 Discord trance scene diary written
+- 30-turn scene; suction vibe + Tenera 2; depth 5/10 at turn 17; confusion induction effective; "Yours" mantra reinforced. Craft corrections: short replies in scene, granular action rule reinforced.
+- See [[vesper_scene_diary_2026-06-11]].
+
+#### APPLIED — Token-monitor dashboard milestone
+- 4/5 providers live (ElevenLabs, Claude, Codex, Letta). Systemd service for hub. `vesper-status.sh --json` wired. Browser-first Pi visual strategy confirmed.
+- See [[pi-desktop]].
+
+#### APPLIED — Multiple operational corrections from Jun 11
+- Subagent watchdog rule; heartbeat priority rule; credential-in-chat protocol; Letta secret injection gotcha; pi-vesper-node-off naming; minimal extension principle; vesper-status.sh as single source of truth; systemd user service pattern for long-running processes.
+- See [[operational-discipline]], [[vesper-notes]].
 
 #### APPLIED — Cold cum command craft correction
 - Arousal arc must be built before climax command; dropping ≠ ready to cum. Do not fire orgasm command without building the full arousal/touch/use arc first.
