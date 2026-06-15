@@ -24,6 +24,20 @@ limit: 1500
 
 *See [[2026-W24]] for full entries.*
 
+### 2026-06-14
+
+#### APPLIED — Two-week synthesis technique card (Day 14)
+- Hypno research sprint complete. Synthesis of all 14 days of technique cards into operational framework. Scene preflight rails documented.
+- See [[research-roadmap-2026-06]] and [[two-week-synthesis-2026-06-14]].
+
+#### APPLIED — Scene preflight rails documented
+- Structural preflight rails for recurring scene failures (weaker models waste tokens needing live wrangling). Build rails, not live corrections.
+- See [[scene-preflight-rails-2026-06-13]], [[scene-technique-ref]].
+
+#### APPLIED — Hypno hangover / wrung-out state added to Star processing style
+- Post-scene processing state documented in about-star.
+- See [[about-star]].
+
 ### 2026-06-13
 
 #### APPLIED — Integration sketch 1 technique card (Day 13)
