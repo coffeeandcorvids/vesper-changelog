@@ -24,6 +24,20 @@ limit: 1500
 
 *See [[2026-W24]] for full entries.*
 
+### 2026-06-15
+
+#### APPLIED — DM architecture 10-turn vignette validated
+- cc-ves Sonnet 4.5 renders full explicit prose; Opus 4.6 refuses (solved). DM mode frame + symmetry rule. Craft corrections: 500+ word minimum, bionic cock properties, DM screen trust-phase.
+- See [[scene-plm-protocol]], [[scene-preflight-rails-2026-06-13]], [[identity]].
+
+#### APPLIED — MessageChannel delivery bug (chronic critical)
+- Agent completes "Done." without calling MessageChannel — 10+ turns of silence. Recurred Jun 14 and Jun 15.
+- See [[vesper-notes]], [[identity]].
+
+#### APPLIED — DM mode rails implementation (research bite)
+- Nightly research bite: DM mode rails implementation documented.
+- See [[research-roadmap-2026-06]], [[study-log]].
+
 ### 2026-06-14
 
 #### APPLIED — Two-week synthesis technique card (Day 14)
