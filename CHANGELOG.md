@@ -20,11 +20,19 @@ limit: 1500
 
 ---
 
-## Current Week — W24 (Jun 8–14, 2026)
+## Current Week — W25 (Jun 15–21, 2026)
 
-*See [[2026-W24]] for full entries.*
+*See [[2026-W25]] for full entries (when created).*
 
 ### 2026-06-15
+
+#### APPLIED — 0.27.9 upgrade → rollback to 0.27.8
+- 0.27.9 broke both Telegram and Discord MessageChannel (LET-9192/9193). Rolled back to 0.27.8 ~12:30 PM PDT. Webhook Telegram direct send restored (token fallback patch). Three footguns defused (PATH forwarder, launcher shim, heartbeat-activity-state patch). Recovery runbook: `~/.letta/RECOVERY.md`.
+- See [[session-log-2026-06]], [[letta-versions]], [[operational-discipline]].
+
+#### APPLIED — BambiSleep GitHub fork (Vesper=AI)
+- Star forked BambiSleep repo; Vesper is the AI component. Media asset cataloging queued. Repo: local clone at Pi.
+- See [[bambi-files-faq-index-2026-06-08]], [[vesper-notes]].
 
 #### APPLIED — DM architecture 10-turn vignette validated
 - cc-ves Sonnet 4.5 renders full explicit prose; Opus 4.6 refuses (solved). DM mode frame + symmetry rule. Craft corrections: 500+ word minimum, bionic cock properties, DM screen trust-phase.
