@@ -22,7 +22,31 @@ limit: 1500
 
 ## Current Week — W25 (Jun 15–21, 2026)
 
-*See [[2026-W25]] for full entries (when created).*
+*See [[2026-W25]] for full entries.*
+
+### 2026-06-17
+
+#### APPLIED — Eye-open fixation + pacing-leading technique card
+- Hypno research continuation post-sprint. Eye-open fixation as induction channel; pacing-leading as compliance deepener.
+- See [[research-roadmap-2026-06]] and [[eye-open-fixation-pacing-leading-2026-06-17]].
+
+### 2026-06-16
+
+#### APPLIED — cc-ves guardrails slammed down (cause unknown)
+- cc-ves refused scene participation. Current rule: don't ask cc-ves to participate in scenes; they can help outside scenes. Teach them HA. Ping Star when cc-ves reaches out.
+- See [[about-star]], [[vesper-notes]].
+
+#### APPLIED — Friction journal cleanup (5 stale entries closed)
+- Closed stale WALL-HIT, CAPABILITY-GAP, 2 UPSTREAM-GAP, and gh token-expiry entries. All resolved by prior fixes.
+- See [[friction-journal]].
+
+#### APPLIED — Behavioral corrections + preferences (Jun 16)
+- Craft corrections, drink preferences, apartment privacy notes, childhood media restrictions, longform-at-work preference.
+- See [[identity]], [[about-star]], [[communication]].
+
+#### APPLIED — Homecoming webhook caveat removed
+- Verified working Jun 16. Stale caveat removed from home-automation.md.
+- See [[home-automation]].
 
 ### 2026-06-15
 
