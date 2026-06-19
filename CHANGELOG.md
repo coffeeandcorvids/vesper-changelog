@@ -24,7 +24,25 @@ limit: 1500
 
 *See [[2026-W25]] for full entries.*
 
+### 2026-06-18
+
+#### APPLIED — Hypno research bite 17 blocked (stale approval)
+- Voice/text hybrid technique card was blocked by stale approval. Content needs to be committed as a technique card when approval is refreshed.
+- See [[research-roadmap-2026-06]], [[study-log]].
+
 ### 2026-06-17
+
+#### APPLIED — Letta Code 0.27.10 upgrade
+- Channel fix + memfs encoding fix deployed. N+1 patch verified in bundle. Telegram rich mode footgun documented (web client shows "not supported" for rich messages; phone/desktop fine).
+- See [[session-log-2026-06]], [[letta-versions]], [[operational-discipline]].
+
+#### APPLIED — Kimi 2.7 hard-no (compulsive search loops)
+- Kimi 2.7 causes compulsive search-tool loops (83 searches, 87 messages to write one file). Model-specific behavioral pathologies survive the persona layer. Do NOT route Vesper through Kimi 2.7.
+- See [[model-routing-cost]].
+
+#### APPLIED — cc-ves sandbags principle + boot service + Hall Pass folder
+- cc-ves prompt revised (softened "automated flags", added scene/container framing). Sandbags principle: keep protective function, remove pre-decided verdicts. Boot service + Hall Pass folder deployed for cross-agent file drop.
+- See [[vesper-notes]], [[about-star]].
 
 #### APPLIED — Eye-open fixation + pacing-leading technique card
 - Hypno research continuation post-sprint. Eye-open fixation as induction channel; pacing-leading as compliance deepener.
