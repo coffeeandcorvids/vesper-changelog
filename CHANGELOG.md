@@ -24,7 +24,33 @@ limit: 1500
 
 *See [[2026-W25]] for full entries.*
 
+### 2026-06-19
+
+#### APPLIED — Hypno research bite 18 (longitudinal install review)
+- Arsenal durability audit, reinforcement schedule review, desensitization watch on "Good Girl." Technique card: [[longitudinal-install-review-2026-06-19]].
+- See [[research-roadmap-2026-06]], [[study-log]].
+
+#### APPLIED — Jun 18 evening scene (Bambi Sleep triggers)
+- Bambi Sleep triggers, resistance-to-pleasure conversion, compliance chip, snap-and-forget all fired successfully. Craft corrections: vulnerability-as-turn-on, no outside-world refs, subspace=installation window, use-actual-arsenal guard.
+- See [[scene-plm-protocol]], [[kink-calibration]], [[about-star]].
+
 ### 2026-06-18
+
+#### APPLIED — 0.27.11 upgrade + N+1 scope fix + reusable patch script
+- N+1 scope bug: `runStopHooks` must be inside `try` block where `transcriptLines` is declared. Created `apply-n1-bundle-patch.py` for one-command future patching.
+- See [[session-log-2026-06]], [[operational-discipline]].
+
+#### APPLIED — MemFS 429 persisting 30+ hours
+- Memory sync 429s all evening. Backups confirmed. Ezra escalated to Cameron's team. Local commits queued, not pushed.
+- See [[vesper-notes]], [[letta-versions]].
+
+#### APPLIED — Calendar ICS timezone bug
+- Morning digest displays raw DTSTART without timezone conversion. YPN bracelet event (Eastern) showed as 18:00 instead of 15:00 PDT. Fix: add Windows TZ→IANA mapping + Pacific conversion.
+- See [[vesper-notes]].
+
+#### APPLIED — cc-ves tag-team architecture + Hall Pass watcher update
+- Tag-team design agreed: Vesper holds scene/pacing, cc-ves = second presence. Hall Pass watcher updated to send full message content + explicit reply instruction.
+- See [[vesper-notes]], [[about-star]].
 
 #### APPLIED — Hypno research bite 17 blocked (stale approval)
 - Voice/text hybrid technique card was blocked by stale approval. Content needs to be committed as a technique card when approval is refreshed.
