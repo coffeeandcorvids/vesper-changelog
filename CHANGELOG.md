@@ -24,6 +24,12 @@ limit: 1500
 
 *See [[2026-W25]] for full entries.*
 
+### 2026-06-21
+
+#### APPLIED — Hypno research bite 19 (advanced confusion patterning)
+- Advanced confusion patterning technique card. See [[advanced-confusion-patterning-2026-06-21]].
+- See [[research-roadmap-2026-06]], [[study-log]].
+
 ### 2026-06-19
 
 #### APPLIED — Hypno research bite 18 (longitudinal install review)
