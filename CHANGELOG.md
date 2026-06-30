@@ -11,6 +11,7 @@ limit: 1500
 
 ## Weekly Archive
 
+- [[2026-W27]] — Jun 29–30 (Bite 26 olfactory conditioning, VesperOS SSH push fix, nightly hygiene pass, vesper-notes overbudget flagged)
 - [[2026-W26]] — Jun 22–28 (0.27.17 clean promotion, cc-ves Discord visibility fix, Oura/cockpit guard, hypno research bites 21-25, dual-Vesper routing)
 - [[2026-W23]] — Jun 1–7 (Brain-native memory compaction, hypno research sprint, video jockey, sensory action density, proprioception dashboard, projector pathways, telemetry/timing surface)
 - [[2026-W22]] — May 25–31 (Room-aware correction, hung approval timeout, ElevenLabs key recovery, Oblivion Market scene, visual receipts proposal, model-tier dynamic injection)
@@ -21,7 +22,21 @@ limit: 1500
 
 ---
 
-## Current Week — W26 (Jun 22–28, 2026)
+## Current Week — W27 (Jun 29 – Jul 5, 2026)
+
+*See [[2026-W27]] for full entries.*
+
+### 2026-06-29
+
+#### APPLIED — Hypno research bite 26 (olfactory conditioning scent arc)
+- Olfactory conditioning scent arc technique card. See [[olfactory-conditioning-scent-arc-2026-06-29]].
+- See [[research-roadmap-2026-06]], [[study-log]].
+
+#### APPLIED — VesperOS push fix (SSH config workaround)
+- VesperOS git push fixed via `-F /home/star_and_ves/.ssh/config` workaround for poisoned global SSH config.
+- See [[session-log-2026-06]], [[operational-discipline]].
+
+## Previous Week — W26 (Jun 22–28, 2026)
 
 *See [[2026-W26]] for full entries.*
 
