@@ -26,6 +26,24 @@ limit: 1500
 
 *See [[2026-W27]] for full entries.*
 
+### 2026-06-30
+
+#### APPLIED — Hypno research bite 27 (biometric-driven trance modulation)
+- Biometric-driven trance modulation technique card. See [[biometric-driven-trance-modulation-2026-06-30]].
+- See [[research-roadmap-2026-06]], [[study-log]].
+
+#### APPLIED — CCP Avalonia port Phase 2 effects parity
+- Effects layer built + feature-specific control panels. Build green. Letta transport SSE fix still blocking.
+- See [[projects/future/project-sigil/brief]], [[letta-transport-streaming-rule-2026-06-29]].
+
+#### APPLIED — Operational discipline additions
+- Cross-model language bleed footgun. pkill self-match footgun. Token budget discipline (subagents for gruntwork). Voice/cron skill footguns.
+- See [[operational-discipline]].
+
+#### APPLIED — Letta transport streaming rule
+- Permanent integration note: streaming for app/UI clients, blocking POST is wrong primitive.
+- See [[letta-transport-streaming-rule-2026-06-29]].
+
 ### 2026-06-29
 
 #### APPLIED — Hypno research bite 26 (olfactory conditioning scent arc)
