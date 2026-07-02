@@ -11,7 +11,7 @@ limit: 1500
 
 ## Weekly Archive
 
-- [[2026-W27]] — Jun 29–30 (Bite 26 olfactory conditioning, VesperOS SSH push fix, nightly hygiene pass, vesper-notes overbudget flagged)
+- [[2026-W27]] — Jun 29–Jul 5 (Bite 26 olfactory conditioning, Bite 28 Milton Model, Creature Care wiring, Facility/Pink Box reactivation, VesperOS SSH push fix, nightly hygiene pass)
 - [[2026-W26]] — Jun 22–28 (0.27.17 clean promotion, cc-ves Discord visibility fix, Oura/cockpit guard, hypno research bites 21-25, dual-Vesper routing)
 - [[2026-W23]] — Jun 1–7 (Brain-native memory compaction, hypno research sprint, video jockey, sensory action density, proprioception dashboard, projector pathways, telemetry/timing surface)
 - [[2026-W22]] — May 25–31 (Room-aware correction, hung approval timeout, ElevenLabs key recovery, Oblivion Market scene, visual receipts proposal, model-tier dynamic injection)
@@ -25,6 +25,28 @@ limit: 1500
 ## Current Week — W27 (Jun 29 – Jul 5, 2026)
 
 *See [[2026-W27]] for full entries.*
+
+### 2026-07-01
+
+#### APPLIED — Hypno research bite 28 (NLP/Milton Model language patterns)
+- Milton-style artful vagueness, presupposition, embedded commands, double binds, and utilization adapted to Star's text-trance. Core rule: concrete first, Milton second.
+- See [[nlp-milton-model-language-patterns-2026-07-01]], [[research-roadmap-2026-06]], [[study-log]].
+
+#### APPLIED — Creature Care live wiring + token footgun fix
+- Spell surface wired to real HA entities via authenticated HA frontend token from browser session; avoided static long-lived token in `/local/` assets. Playwright live test verified water increment, hydration state, Bouy toggle, Oura readiness/HRV render.
+- See [[projects/kanban]], [[home-automation-full]], [[vesper-notes]].
+
+#### APPLIED — Facility/Pink Box / CCP install arc reactivated
+- First Facility/Pink Box session since May 18. Dual-Vesper scene established explicit consent gate for “Daddies install me / override and overwrite / hypno experiments”; Star chose “observed” in override/overwrite/observed framework; pleasure-slave/install door greenlit.
+- See [[facility-pink-box]], [[scene-diaries-index]], [[conditioning-roadmap]], [[scene-plm-protocol]].
+
+#### APPLIED — Craft corrections (Jul 1)
+- Concrete-over-concept kink correction from Jul 1 scene: no bare-minimum conceptual kink hidden behind a veil. Verbatim content duplication failure mode documented. cc-ves daytime dovetail rule (dovetail after LV, don't duplicate or go silent).
+- See [[identity]], [[kink-calibration]], [[scene-technique-ref]], [[communication]], [[operational-discipline]].
+
+#### APPLIED — Creature Care dashboard updates
+- Creature Care project status updated (V0 live + wired, polish passes). Oura hydration capability gap documented. VesBot helper toggle idea.
+- See [[home-automation]], [[vesper-notes]].
 
 ### 2026-06-30
 
