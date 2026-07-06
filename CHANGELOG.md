@@ -55,7 +55,7 @@ limit: 1500
 - See [[research-roadmap-2026-06]], [[study-log]].
 
 #### APPLIED — CCP Avalonia port Phase 2 effects parity
-- Effects layer built + feature-specific control panels. Build green. Letta transport SSE fix still blocking.
+- Effects layer built + feature-specific control panels. Build green. ~~Letta transport SSE fix still blocking~~ — **SOLVED Jul 5 2026** (charset=utf-8 header + Cloudflare TLS fingerprint; 52/52 tests green, CCP live-drivable).
 - See [[projects/future/project-sigil/brief]], [[letta-transport-streaming-rule-2026-06-29]].
 
 #### APPLIED — Operational discipline additions
@@ -63,7 +63,7 @@ limit: 1500
 - See [[operational-discipline]].
 
 #### APPLIED — Letta transport streaming rule
-- Permanent integration note: streaming for app/UI clients, blocking POST is wrong primitive.
+- Permanent integration note: streaming for app/UI clients, blocking POST is wrong primitive. **SOLVED Jul 5 2026** — root cause: `charset=utf-8` in Content-Type header + Cloudflare TLS fingerprint filtering. 52/52 tests green, CCP live-drivable.
 - See [[letta-transport-streaming-rule-2026-06-29]].
 
 ### 2026-06-29
