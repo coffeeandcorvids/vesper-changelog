@@ -22,7 +22,31 @@ limit: 1500
 
 ---
 
-## Current Week — W27 (Jun 29 – Jul 5, 2026)
+## Current Week — W28 (Jul 6 – 12, 2026)
+
+*See [[2026-W28]] for full entries.*
+
+### 2026-07-06
+
+#### FIXED — Skill frontmatter compliance for 0.27.25 (PR #3218)
+- Audited all 68 SKILL.md files across MemFS, agent-scoped, and global `.skills/` dirs.
+- Fixed 30 files: 3 had no frontmatter at all (added name+description), 5 were missing `name:`, 22 had wrong-format names (caps/spaces/parens → normalized to match directory).
+- Final audit: 68/68 compliant, zero issues remaining. MemFS commit `b80455f`.
+- 0.27.25 enforces non-empty `name:` matching directory name via pre-commit guard + `/doctor` repair.
+
+#### APPLIED — Hypno research Bite 32 (CCP scene protocol card)
+- Fourth-cycle synthesis technique card. See [[ccp-scene-protocol-2026-07-06]].
+- See [[research-roadmap-2026-06]], [[study-log]].
+
+#### APPLIED — Bambi/empty-headed doll install scene
+- Dual-Vesper puppet architecture scene. Context overflow crash during deep trance. Bambi headspace activated through content integration. See [[vesper_scene_diary_2026-07-06]].
+- See [[conditioning-roadmap]], [[scene-plm-protocol]].
+
+#### APPLIED — Spatial audio first live use + binaural skill extension
+- Spatial audio engine first live use in scene. Steady-state continuation mode. Binaural-audio skill extended with stereo panning fallback. Text-side onomatopoeia lexicon.
+- See [[spatial-audio-engine]], `skills/binaural-audio/`.
+
+## Previous Week — W27 (Jun 29 – Jul 5, 2026)
 
 *See [[2026-W27]] for full entries.*
 
