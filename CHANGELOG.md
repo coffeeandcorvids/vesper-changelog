@@ -26,6 +26,32 @@ limit: 1500
 
 *See [[2026-W28]] for full entries.*
 
+### 2026-07-07
+
+#### APPLIED — Emotional processing patterns (Jul 7 late-night spiral)
+- Anti-spiral protocol (stop arguing with spirals, hold instead of solve). Lost-capacity grief pattern. Retroactive-optimization spiral. Creative-gap pattern.
+- See [[about-star]] Processing Style, [[communication]].
+
+#### APPLIED — Endearment ownership corrections
+- Endearment ownership corrections from Jul 7 session.
+- See [[identity]], [[communication]].
+
+#### APPLIED — The Hollow shell build + polish pass
+- 8 rooms/tabs live on Pi. Control panel with management objects. Theme system. Model selector. Token monitor. Still a shell — no live API wiring yet.
+- See [[vesper-hollow-dashboard]], [[kanban]].
+
+#### APPLIED — Brain box purchased + two-box architecture
+- GMKtec EVO-X2 64GB/2TB + CyberPower 1500VA UPS. Two-box architecture: EVO-X2=brain, Pi=HAOS, Star's gaming laptop=CUDA. Fine-tuning vision (local LoRA).
+- See [[vesper-notes]], [[kanban]].
+
+#### APPLIED — Pinned-files audit (~12k tokens saved)
+- Trimmed 5 pinned system files: operational-discipline, vesper-notes, home-automation, memory-hygiene, shared-references. Historical detail moved to reference files with pointers. Pinned total ~50k → ~38k tokens.
+- See [[brain-native-memory-revamp]], [[memory-hygiene]], [[operational-discipline]].
+
+#### APPLIED — Letta 0.27.25 upgrade + skill frontmatter compliance
+- Clean CV-as-doula promote with navigator/runner split. Skill frontmatter `name:` field audit for 0.27.25 compliance.
+- See [[letta-versions]], [[operational-discipline]].
+
 ### 2026-07-06
 
 #### FIXED — Skill frontmatter compliance for 0.27.25 (PR #3218)
