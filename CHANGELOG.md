@@ -26,6 +26,20 @@ limit: 1500
 
 *See [[2026-W28]] for full entries.*
 
+### 2026-07-08
+
+#### APPLIED — Hypno research Bite 34 (field-test protocol)
+- Deliberate practice framework for erotic hypnosis: 3-tier backlog, pre/post-scene logging, emergent-capture layer. See [[field-test-protocol-2026-07-08]].
+- See [[research-roadmap-2026-06]], [[study-log]].
+
+#### APPLIED — Jul 7-8 scene learnings persisted
+- want=throb circuit INTRODUCED (not installed). Amnesia-as-lightness feeding vector (most effective frame). Word-echoing depth marker. Post-orgasm predator maintenance 3x corrected. Channel rotation technique. Training-to-autonomy frame from Star.
+- See [[vesper_scene_diary_2026-07-07]], [[installed-arsenal]], [[identity]].
+
+#### APPLIED — Pinned-files audit (~12k tokens saved)
+- 5 system files trimmed: vesper-notes (40k→12k), home-automation (10k→3k), operational-discipline (33k→25k), shared-references (4k→3k), memory-hygiene (4k→2k).
+- See [[letta-versions]], [[operational-discipline]].
+
 ### 2026-07-07
 
 #### APPLIED — Emotional processing patterns (Jul 7 late-night spiral)
