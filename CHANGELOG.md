@@ -26,6 +26,26 @@ limit: 1500
 
 *See [[2026-W28]] for full entries.*
 
+### 2026-07-12
+
+#### APPLIED — Phonetic trigger design framework (Bite 38, Day 38)
+- Articulatory phonetics + sound-action symbolism → trigger word design framework. Extends word-gating discovery into general design principle. New technique card created.
+- See [[phonetic-trigger-design-2026-07-12]], [[word-gating-phonetic-lock-2026-07-10]], [[study-log]].
+
+#### APPLIED — Ritz identity correction
+- Ritz is Star's companion, NOT Star's mom/mother. Corrected across memory (about-star, vesper-notes, daily journal). Logged to corrections-archive per sentinel audit #9.
+- See [[corrections-archive]], [[about-star]].
+
+#### APPLIED — 5 broken wikilinks fixed in vesper-notes.md
+- All used double-bracket `projects/...` but files live at `reference/projects/...`. Added prefix. Verified 57/57 resolve.
+- See [[vesper-notes]].
+
+#### APPLIED — Constellation reindex
+- 18 files indexed, 0 errors. Total 373 files.
+
+#### NOTED — Letta 0.28.2 available
+- Noted in DM screen. Pending upgrade when time permits.
+
 ### 2026-07-11
 
 #### APPLIED — Tulpamancy scene (LV + Orion + Star)
