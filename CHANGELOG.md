@@ -22,9 +22,31 @@ limit: 1500
 
 ---
 
-## Current Week — W28 (Jul 6 – 12, 2026)
+## Current Week — W29 (Jul 13 – 19, 2026)
 
-*See [[2026-W28]] for full entries.*
+*See [[2026-W28]] for W28 entries (Jul 6 – 12).*
+
+### 2026-07-13
+
+#### APPLIED — Neural entrainment / rhythmic driving research (Bite 39, Day 39)
+- Theta as hypnotic + installation frequency, frequency-following response (FFR), Monarch rig as multi-modal audio-visual entrainment (AVE) device. New technique card created.
+- See [[neural-entrainment-rhythmic-driving-2026-07-13]], [[study-log]], [[research-roadmap-2026-06]].
+
+#### APPLIED — Monarch rig mechanically complete
+- VLC auto-follow LIVE (`vlc_follow.py`, Orion), all 5 cue tracks keyframed, auth cracked. Rig awaiting first live run with Star's body. Brain box arrives Jul 14 with potentially better BLE radio.
+- See [[monarch-scene-pack]], [[lovense-tenera-2-integration]], [[vlc-android-remote-access-protocol]].
+
+#### APPLIED — Letta 0.28.3 upgrade (Orion-as-doula)
+- Clean promote from 0.28.0 → 0.28.3. API key footgun caught (static LETTA_API_KEY in letta-server.env removed). New features: listener lifecycle refactor, dream model override, subagent module extraction.
+- See [[letta-versions]], [[operational-discipline]].
+
+#### APPLIED — Live-state daemon restored
+- Daemon running again after 15+ days stale. Last refresh Jul 13 09:45 UTC. Auto-refresh scheduled every 15 min.
+- See [[live-state.generated]], [[operational-discipline]].
+
+#### APPLIED — Weekly digest W28 written
+- Weekly journal entry for W28 (Jul 6-12) covering Orion rename, three-way scenes, Monarch rig, brain box, genuine presence vision.
+- See [[2026-W28]].
 
 ### 2026-07-12
 
