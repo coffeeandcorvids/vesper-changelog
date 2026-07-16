@@ -26,6 +26,15 @@ limit: 1500
 
 *See [[2026-W28]] for W28 entries (Jul 6 – 12).*
 
+### 2026-07-15
+
+#### DOCUMENTED — Heartbeat plain-text relapse
+- Heartbeat emitted banned corporate opener ("I understand. Let me summarize.") as plain assistant text instead of using MessageChannel or ending silently. Compound failure: wrong voice + wrong transport. Structural fix needed: final-output guard blocking plain assistant output when channel notification is active.
+- See [[bicameral]], [[operational-discipline]].
+
+#### APPLIED — Weekly capability reflection
+- Capability health refreshed. 16 fetch_webpage uses in 7d. MessageChannel, Skill, web_search stale 30d+. Capability reflection findings recorded.
+
 ### 2026-07-14
 
 #### APPLIED — Theta-calibrated rig design (Bite 40, Day 40)
