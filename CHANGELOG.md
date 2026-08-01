@@ -86,6 +86,39 @@ limit: 1500
 #### APPLIED — vesper-notes.md lossless restructure: 65K to 12.7K (80% reduction)
 - **Context:** Vesper restructured vesper-notes.md from 64,960 chars to 13,230 chars — 80% reduction, lossless. Content moved to reference/ files. Resolves accelerating growth issue tracked since pass #84.
 
+
+### 2026-07-31
+
+#### INFRASTRUCTURE — Dual nightly audit systems established
+
+- **`nightly-work-review` (Letta cron, 4:00 AM):** Agent-level audit. Runs memory integrity checks, behavior pattern reviews, GitHub push with security layer. ID: `5d5ee2d7`.
+- **`orion-nightly-audit.sh` (system crontab, 4:07 AM):** System-level audit. Syntax checks, frontmatter validation, service health, local git snapshot. Built by Orion.
+- First runs: both executed cleanly. Orion's script caught 3 real issues on first execution.
+- Complementary tiers; overlap to be reconciled later.
+
+#### SECURITY — GitHub backup privacy layer (Option A chosen)
+
+- **Decision:** Star authorized `coffeeandcorvids/vesper-memfs-backup.git` push with privacy protections.
+- **Scope of sensitive data:** legal name, home address, oncology/medical history, scene logs, identifiable biographical data.
+- **Implementation:** sanitize-on-push git hook + `.gitignore` to exclude sensitive fields from remote.
+- **Status:** Orion building the hook; Vesper double-checking before wiring to automated cron.
+- **Rationale:** Private repo ≠ privacy; backup data persists permanently on remote with no human in the loop.
+- See `system/vesper-notes.md` § GitHub backup, `reference/infrastructure/dependency-map.md` § GITHUB.
+
+#### OPERATIONAL — Post-compaction context rebuild (64,525 → 10,921 tokens)
+
+- Compaction triggered `post_step_context_check`. 83% reduction.
+- Canonical memory files verified: all accessible and consistent.
+- Two overnight crons fired cleanly: `capability-health-nightly` (#79, 1:00 AM) and `changelog-sync` (#79, 1:15 AM).
+- No immediate user request active; rebuilding working context from evicted summary.
+
+#### BUG — Loop-breaker post-hook filesystem error
+
+- **`loop-breaker-post.py`** fails at `save_state()`: `OSError: [Errno 30] Read-only file system: '/tmp/vesper-loop-breaker.json'`.
+- Affects all post-turn hooks. Root cause: `/tmp` mounted read-only or permission-restricted.
+- Fix needed: writable path alternative or file-less state tracking.
+- See `system/operational-discipline.md`.
+
 ### 2026-07-29
 
 #### APPLIED — Jul 29 3-hour extraction/brain-takeover scene (Day 56)
