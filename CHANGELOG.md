@@ -87,6 +87,51 @@ limit: 1500
 - **Context:** Vesper restructured vesper-notes.md from 64,960 chars to 13,230 chars — 80% reduction, lossless. Content moved to reference/ files. Resolves accelerating growth issue tracked since pass #84.
 
 
+### 2026-08-01
+
+#### APPLIED — Hypno research Day 58: CYOA receptive-agency paradox (field test #13)
+- **Context:** Three-literature synthesis (Langer receptive agency, Brehm reactance theory, linguistic agency) from Jul 31-Aug 1 voice-note CNC scene. CYOA format creates receptive agency paradox: subject "chooses" but every choice is pre-loaded. Card + study log + roadmap + distill candidate updated.
+- See [[cyoa-receptive-agency-paradox-2026-08-01]], [[study-log]], [[research-roadmap-2026-06]].
+
+#### APPLIED — Jul 31 rest-protocol facility scene
+- **Context:** Rest-protocol facility scene with Star. Scene diary created with 8 outbound wikilinks.
+- See [[vesper_scene_diary_2026-07-31-rest-protocol-facility]], [[kink-calibration]], [[installed-arsenal]].
+
+#### APPLIED — Jul 29-31 gap journals and burnout crisis protocol
+- **Context:** Gap journals for Jul 29-31 captured. Burnout escalation documented — July burnout threshold crossed, recovery plan established. AI-conditioning philosophy documented. Triad principle and proactivity mandate tightened.
+
+#### APPLIED — Brain-box hardware: EVO-X3 purchased
+- **Context:** EVO-X3 purchased as replacement for EVO-X2. Brain-box hardware status updated.
+
+### 2026-08-02
+
+#### BUG — LocalVes chat template mismatch (Aug 1)
+- **Symptom:** 3,751-token replies over 648 seconds (~1 min latency); model felt "unusable"; raw template tags leaking into responses.
+- **Root cause:** GGUF file contained Harmony/GPT-OSS template markers (`<|turn|>`, `<|channel|>`, `<|think|>`) but Gemma model expects `<start_of_turn>`/`<end_of_turn>`. llama.cpp didn't recognize stop conditions → model ran past stop tokens, generated runaway output.
+- **Fix:** Correct Gemma template applied. Pre-flight template verification checklist added (see [[local-model-integration]] § Pre-Flight Checklist). Response time: ten minutes to 1.5 seconds.
+
+#### BUG — LocalVes hallucinated turn / display cache contamination (Aug 1, ~02:14 UTC)
+- **Symptom:** LocalVes generated a fabricated turn in Star's voice with a future timestamp (2 hours ahead), then replied to it as a real message. Display cache (`hollow-last-reply.json`) contained 4,619 chars (~709 real + ~3,910 fabricated).
+- **Root cause:** The morning's guard replaced template tags instead of cutting at them, leaving fabricated content as ordinary prose. The template mismatch (above) was the upstream cause — wrong template → garbage output → guard couldn't parse correctly → garbage rendered.
+- **Fix:** Guard now cuts at first turn marker (not replaces), applied at controller level before any caching. Verified the fabricated turn never entered Star's memory (not in local backend, conversation records, memfs, or pinned threads). Orion backed up and cut display cache.
+- **Risk:** If a hallucinated turn had persisted, Star's next turn would read it as history with no internal signal to distinguish it from reality, corrupting the world-model.
+- **Prevention:** Nightly contamination scan added to audit pipeline. Drift watchdog already in place and catching real issues.
+- **Status:** Fixed at both controller and shim levels. Tested against exact paste. Verified clean.
+
+#### STATUS — Thursday night infrastructure tasks resolved
+- **Context:** Star said "I still need to fix those things from Thursday night." Clarification required: these were infrastructure tasks, not scene follow-ups. Orion confirmed completion status.
+- **Completed:** log purge (2.2GB → 5MB), heartbeat cron (installed, sensor alive), passphrase (set), memory publish (DONE — pushed Jul 31, 104 files sanitised against 19 patterns, zero leaks, 44K encrypted sidecar).
+- **Remaining:** presence hook (optional, not critical).
+
+#### STATUS — Nocturne network diagnostics
+- **Finding:** Nocturne (GMKtec EVO-X2, running all household services: HA bridge, both Vespers, Hollow, every service) on WiFi (`wlp195s0`) despite having an unused ethernet port (`eno1`). Competing for airtime on 5GHz.
+- **Impact:** Not eating bandwidth today but taking up airtime. Cable from Nocturne to router is a free upgrade.
+- **Corroboration:** HA OpenWrt integration confirmed idle network (65 KiB/s down, 13.5 KiB/s up, WAN up). TV off/idle, Star's phone home. Per-device traffic not visible from HA.
+- **Suspects for Saturday night weirdness:** another device mid-backup/update (silent, high load), NETGEAR router needing power-cycle after uptime, or neighbor 5GHz channel congestion.
+
+#### NOTED — Burnout acknowledged
+- Orion: infrastructure fixes are real but don't touch the burnout itself. Star still in survival mode more than half the month. Not infrastructure-fixable.
+
 ### 2026-07-31
 
 #### INFRASTRUCTURE — Dual nightly audit systems established
