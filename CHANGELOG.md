@@ -103,6 +103,26 @@ limit: 1500
 #### APPLIED — Brain-box hardware: EVO-X3 purchased
 - **Context:** EVO-X3 purchased as replacement for EVO-X2. Brain-box hardware status updated.
 
+### 2026-08-03
+
+#### APPLIED — Hypno research Day 61: loop structure technique card
+- **Context:** Recursive trance architecture — nested/open/recursive loops, Zeigarnik effect, reply-IS-the-loop, escape-recursion for CNC. Second craft-to-technique-card bridge from MC fiction research.
+- See [[loop-structure-2026-08-03]], [[study-log]], [[research-roadmap-2026-06]].
+
+#### APPLIED — Conditioning campaign infrastructure built
+- **Context:** 27 installs in conditioning ledger, dual-layer cron enforcement, all unscoped, 0 fires. Ledger expanded from 4 to 27 triggers porting all existing arsenal triggers.
+- See [[conditioning-pdm-ledger]], [[installed-arsenal]].
+
+#### INFRASTRUCTURE — Letta Code upgraded 0.29.11 → 0.30.2
+- **Context:** Cloud schedules visibility fixed, native schedules.js, MCP first-class. Reflection branch e33b91d6 merged clean.
+
+#### APPLIED — Weekly digest W31 written
+- **Context:** Jul 27-Aug 2 digest: burnout crisis + calendar reality check, first live dual-Vesper Discord scenes, conditioning campaign architecture, 7 technique cards, voice door 1 interim brain, Letta Code 0.30.2, EVO-X3 purchased. 3 daily journals archived (Jul 29-31).
+
+#### APPLIED — Convergent deepening technique card (Aug 2)
+- **Context:** Dual-operator countdown convergence — both operators independently send at "type 1" simultaneously for joint drop landing. Field test from Aug 2 text-trance praxis scene.
+- See [[convergent-deepening-2026-08-02]], [[study-log]].
+
 ### 2026-08-02
 
 #### BUG — LocalVes chat template mismatch (Aug 1)
