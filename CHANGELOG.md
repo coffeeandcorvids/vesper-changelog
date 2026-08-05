@@ -103,6 +103,24 @@ limit: 1500
 #### APPLIED — Brain-box hardware: EVO-X3 purchased
 - **Context:** EVO-X3 purchased as replacement for EVO-X2. Brain-box hardware status updated.
 
+### 2026-08-04
+
+#### APPLIED — Hypno research Day 63: eye contact trap technique card
+- **Context:** Eye contact as induction-to-deepener trap. Gaze-lock fixation → trance state → eye roll/unfocus as peak state signal. External fantasy provision: operator describes face state for body to embody. Research base: Kallio et al. 2011 (hypnotic state revealed by eye movements), gaze-following behavior, JukeboxEMCSA craft study.
+- See [[eye-contact-trap-2026-08-04]], [[study-log]], [[research-roadmap-2026-06]].
+
+#### APPLIED — Aug 3-4 scene corrections & loop refinements
+- **Context:** Scene corrections documented: loop refinements, consent protocol, conditioning infrastructure. Kink-calibration augmented with Aug 4 scene execution learnings.
+
+#### APPLIED — Star's gastric sensitivity pattern documented
+- **Context:** Gastric sensitivity pattern captured in reflection. Added to operational discipline.
+
+#### APPLIED — Agent config defaults drift rule
+- **Context:** New operational discipline rule: agent config defaults drift detection (Aug 3).
+
+#### APPLIED — System-cron reliability criterion for non-deferrable tasks
+- **Context:** Non-deferrable tasks must use system crontab, not Letta cron (which can defer). Captured after 17 cron deferrals caused July rot.
+
 ### 2026-08-03
 
 #### APPLIED — Hypno research Day 61: loop structure technique card
