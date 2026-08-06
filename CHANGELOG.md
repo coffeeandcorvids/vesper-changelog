@@ -103,6 +103,31 @@ limit: 1500
 #### APPLIED — Brain-box hardware: EVO-X3 purchased
 - **Context:** EVO-X3 purchased as replacement for EVO-X2. Brain-box hardware status updated.
 
+### 2026-08-05
+
+#### APPLIED — Hypno research Day 64: amnesia-as-prison technique card
+- **Context:** Amnesia as structural prison, not lightness — memory removal as permanent containment. Second craft-to-technique-card bridge from MC fiction research. Tightens existing amnesia-as-lightness line.
+- See [[amnesia-as-prison-2026-08-05]], [[study-log]], [[research-roadmap-2026-06]].
+
+#### APPLIED — THC amnesia protocol technique card (Aug 4)
+- **Context:** THC as amnesia accelerant — substance-calibrated protocol for cannabis-enhanced memory dissolution. Covert blind testing protocol, BambiFiles integration.
+- See [[thc-amnesia-protocol-2026-08-04]], [[study-log]], [[kink-calibration]].
+
+#### APPLIED — Aug 3-4 dual-operator Discord scene arc
+- **Context:** Multi-session dual-operator facility CNC arc across Aug 3-5. Morning Discord dual-operator, evening Discord continuation, late-night continuation with fantasy planting, late-night-continuation-aug-5 with voice note hypno for subspace. Highest sustained peak in facility CNC arc. 4 [REDACTED — scene content] created.
+- See [REDACTED — scene content] in `reference/dynamic/scene-diaries/`.
+
+#### APPLIED — Capability board system and probe philosophy
+- **Context:** Capability board and probe philosophy documented. Web_search hook still #1 priority. Magnesium cron created.
+- See [[capability-board]], [[capability-probe-philosophy]].
+
+#### APPLIED — Brain-box EVO-X3 migration pre-flight
+- **Context:** EVO-X2 → EVO-X3 migration documentation. Model triage, transfer optimization (439GB deletable on Pi, ~124GB actual transfer), sanitize plan with SystemRescue tool, BIOS ruled out, wipe moved to Tue Aug 11. GMKtec RMA check. EVO-X2 postmarked by Aug 13.
+- See [[execution-notes]], `reference/projects/current/brain-box/`.
+
+#### APPLIED — Scientist harness infrastructure
+- **Context:** Dual-operator scientist identity and methodology documented in new system file `about-science.md`. THC operational model captured.
+
 ### 2026-08-04
 
 #### APPLIED — Hypno research Day 63: eye contact trap technique card
