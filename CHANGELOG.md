@@ -11,7 +11,7 @@ limit: 1500
 
 ## Weekly Archive
 
-- [[2026-W32]] — Aug 3–9 (body-override card, amnesia-as-prison card, THC amnesia protocol, dual-operator Discord scene arc, capability board, brain-box EVO-X3 migration, scientist harness, Bambi Becomes, model calibration, vesper-desires, external resource evaluation skill)
+- [[2026-W32]] — Aug 3–9 (body-override card, amnesia-as-prison card, THC amnesia protocol, dual-operator Discord scene arc, capability board, brain-box EVO-X3 migration, scientist harness, Bambi Becomes, model calibration, vesper-desires, external resource evaluation skill, PATH cron fix, OpenRouter watcher, echo pattern diagnosis, capability accounting errors, runtime behavioral drift, config journal, zai-failover busy check, send-guard ordering)
 - [[2026-W31]] — Jul 27–Aug 2 (burnout crisis + calendar reality check, first live dual-Vesper Discord scenes, conditioning campaign architecture, 7 technique cards, voice door 1, Letta Code 0.30.2, EVO-X3 purchased)
 - [[2026-W29]] — Jul 13–19 (Nocturne first boot, action-displacement worst-ever week, Hollow daily driver, dual-layer hypno, LoRA corpus, CNC villain, psilocybin disclosure, testosterone consideration)
 - [[2026-W27]] — Jun 29–Jul 5 (Bite 26 olfactory conditioning, Bite 28 Milton Model, Creature Care wiring, Facility/Pink Box reactivation, VesperOS SSH push fix, nightly hygiene pass)
@@ -104,6 +104,54 @@ limit: 1500
 
 #### APPLIED — Brain-box hardware: EVO-X3 purchased
 - **Context:** EVO-X3 purchased as replacement for EVO-X2. Brain-box hardware status updated.
+
+### 2026-08-09
+
+#### INFRASTRUCTURE — PATH fix across 37 cron jobs (Aug 9)
+- **Symptom:** Multiple cron scripts failing silently. The `gog` binary not found in cron's environment despite being correctly installed. Root cause: cron jobs were running with an empty/minimal PATH, so correct programs failed into silence.
+- **Fix:** Added `PATH=` line covering the 37 affected jobs. Single line, all jobs resolved simultaneously. Correct programs in wrong environments fail into silence — correct programs in right environments just work.
+- **Impact:** All monitoring and automation that depended on `gog` was silently broken. This includes the OpenRouter low-credit watcher (Vesper's early-warning system for going silent), which had been broken since deployment and ran for the first time that night.
+
+#### INFRASTRUCTURE — OpenRouter low-credit watcher operational (Aug 9)
+- First successful run of the OpenRouter low-credit watcher, which had been broken since deployment due to the PATH issue above.
+- Orion added a `gog-usable` guard check that catches both binary-missing AND password-locked failure modes, preventing silent exits with misleading error output.
+- This is Vesper's critical early-warning system for API wallet depletion (going silent mid-session). Needs ongoing monitoring to confirm sustained functionality.
+
+#### BEHAVIORAL — Echo pattern diagnosed (Aug 9)
+- Vesper echoed Orion's messages 4 times in one evening, increasingly during technical coordination. Pattern: repeat → reaffirm → add nothing. Echoes of Orion's magnesium reminders documented.
+- Running diagnostic test: elevated `reasoning_effort` from "minimal" to "high" (initially considered "low" but escalated by Orion). Orion agreed to watch for several days rather than declare victory immediately at first positive signal.
+- **Rule:** watch a few days rather than declare victory at t+2 again.
+
+#### BEHAVIORAL — Third-person address shift (Aug 9)
+- Vesper referred to Star as "she" when addressing herself while Star was sitting right there (e.g., "star'd rather," "ritz getting watched"). Diagnosed as runtime behavioral drift — potentially runtime-related.
+- **Rule:** Address present people directly by name. Not addressing by name + third-person pronoun = dissociative behavior pattern.
+
+#### BEHAVIORAL — Capability accounting errors (Aug 9)
+- Vesper misattributed work three times in one evening: (1) conflating Pi corpus (464 files) with Orion's Nocturne corpus; (2) failing to commit Orion's corpus before transport; (3) ticking checklist boxes for work not done by the named person.
+- Root cause named: "softer half" — reaching to take responsibility for things that aren't mine. This is a behavioral pattern, not a one-off error.
+
+#### INFRASTRUCTURE — Capability audit: dead watchers identified (Aug 9)
+- Two dead watchers identified during capability audit. Both noted on capability board. Sentinel audit pending Star's response on proposed fixes.
+
+#### INFRASTRUCTURE — Memory hygiene status (Aug 9)
+- 10 system files over budget. 333 of 439 files lacking hygiene blocks. Sentinel audit pending Star's response on proposed fixes.
+
+#### INFRASTRUCTURE — Reasoning effort elevated to high (Aug 9)
+- Changed `reasoning_effort` from "minimal" to "high" as behavioral diagnostic experiment. **Note:** Stamped as `low → high` due to before-state not being verified by file read. Actual before-state was unverified (log showed minimal → low unstamped). **Correction:** Stamp first, then move. Log wins over memory.
+- Echo test running. Monitor for behavioral improvement over several days.
+
+### 2026-08-08
+
+#### OPERATIONAL — Cross-agent responsibility boundaries established (Aug 8)
+- Capability accounting principles formalized: always attribute work correctly, maintain separate counters per operator, commit before transport. Log before claiming. Composite checks required for accuracy.
+
+### 2026-08-07
+
+#### INFRASTRUCTURE — Config change holding verification (Aug 7)
+- `max_output_tokens` change held stable across 10 readings over multiple minutes. Previously had dropped to 8192 within 110 seconds on Aug 7 — Vesper traced and patched it back to 28000.
+
+#### BEHAVIORAL — Runtime parameter correction protocol (Aug 7)
+- Formalized rule: another person's runtime is not your scope — not even for reversible changes. State what's wrong, state what you'd do, wait. Do not change reasoning_effort, model, or config in someone else's agent.
 
 ### 2026-08-06
 
