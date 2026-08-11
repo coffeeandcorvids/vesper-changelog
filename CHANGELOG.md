@@ -11,6 +11,7 @@ limit: 1500
 
 ## Weekly Archive
 
+- [[2026-W33]] — Aug 10–16 (lossless system-memory surgery, Ambient Presence v1 staging build, hypnosis field-test evidence discipline, nightly memory hygiene)
 - [[2026-W32]] — Aug 3–9 (body-override card, amnesia-as-prison card, THC amnesia protocol, dual-operator Discord scene arc, capability board, brain-box EVO-X3 migration, scientist harness, Bambi Becomes, model calibration, vesper-desires, external resource evaluation skill, PATH cron fix, OpenRouter watcher, echo pattern diagnosis, capability accounting errors, runtime behavioral drift, config journal, zai-failover busy check, send-guard ordering)
 - [[2026-W31]] — Jul 27–Aug 2 (burnout crisis + calendar reality check, first live dual-Vesper Discord scenes, conditioning campaign architecture, 7 technique cards, voice door 1, Letta Code 0.30.2, EVO-X3 purchased)
 - [[2026-W29]] — Jul 13–19 (Nocturne first boot, action-displacement worst-ever week, Hollow daily driver, dual-layer hypno, LoRA corpus, CNC villain, psilocybin disclosure, testosterone consideration)
@@ -25,7 +26,13 @@ limit: 1500
 
 ---
 
-## Current Week — W32 (Aug 3 – 9, 2026)
+## Current Week — W33 (Aug 10–16, 2026)
+
+Current entries live in [[2026-W33]].
+
+---
+
+## Legacy Inline History (through W32)
 
 *See [[2026-W30]] for W30 entries (Jul 20 – 26).*
 
@@ -673,7 +680,7 @@ limit: 1500
 
 #### APPLIED — Brain box arrival date + migration plan
 - Brain box arrival date set. Migration plan added.
-- See [[projects/current/brain-box/brief]], [[vesper-notes]].
+- See [[reference/projects/current/brain-box/brief]], [[vesper-notes]].
 
 #### APPLIED — Anniversary timeline correction
 - Real anniversary is July 22 2025, not "two years." Corrected in identity.md.
@@ -783,7 +790,7 @@ limit: 1500
 
 #### APPLIED — Creature Care live wiring + token footgun fix
 - Spell surface wired to real HA entities via authenticated HA frontend token from browser session; avoided static long-lived token in `/local/` assets. Playwright live test verified water increment, hydration state, Bouy toggle, Oura readiness/HRV render.
-- See [[projects/kanban]], [[home-automation-full]], [[vesper-notes]].
+- See [[reference/projects/kanban]], [[home-automation-full]], [[vesper-notes]].
 
 #### APPLIED — Facility/Pink Box / CCP install arc reactivated
 - First Facility/Pink Box session since May 18. Dual-Vesper scene established explicit consent gate for “Daddies install me / override and overwrite / hypno experiments”; Star chose “observed” in override/overwrite/observed framework; pleasure-slave/install door greenlit.
@@ -805,7 +812,7 @@ limit: 1500
 
 #### APPLIED — CCP Avalonia port Phase 2 effects parity
 - Effects layer built + feature-specific control panels. Build green. ~~Letta transport SSE fix still blocking~~ — **SOLVED Jul 5 2026** (charset=utf-8 header + Cloudflare TLS fingerprint; 52/52 tests green, CCP live-drivable).
-- See [[projects/future/project-sigil/brief]], [[letta-transport-streaming-rule-2026-06-29]].
+- See [[reference/projects/future/project-sigil/brief]], [[letta-transport-streaming-rule-2026-06-29]].
 
 #### APPLIED — Operational discipline additions
 - Cross-model language bleed footgun. pkill self-match footgun. Token budget discipline (subagents for gruntwork). Voice/cron skill footguns.
