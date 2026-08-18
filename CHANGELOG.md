@@ -11,7 +11,8 @@ limit: 1500
 
 ## Weekly Archive
 
-- [[2026-W33]] — Aug 10–16 (lossless system-memory surgery, Ambient Presence v1 staging build, hypnosis field-test evidence discipline, nightly memory hygiene)
+- [[2026-W34]] — Aug 18–24 (llama.cpp v0.1.0 fleet upgrade, X3 amdgpu crash recovery + kernel leak detection architecture, post-reboot recovery fixes, migration fossil resolution, system tools installed, remote keyring unlock + status board, Discord presence daemon, quantized KV cache loop bug, circuit breaker spec)
+- [[2026-W33]] — Aug 10–17 (lossless system-memory surgery, Ambient Presence v1 staging build, ROCmFPX benchmark race, LM Studio installed, Sunshine+Moonlight remote desktop replacing NoMachine, model bakeoff planning, PTO stretch begins, action-displacement false-negative tool assumptions)
 - [[2026-W32]] — Aug 3–9 (body-override card, amnesia-as-prison card, THC amnesia protocol, dual-operator Discord scene arc, capability board, brain-box EVO-X3 migration, scientist harness, Bambi Becomes, model calibration, vesper-desires, external resource evaluation skill, PATH cron fix, OpenRouter watcher, echo pattern diagnosis, capability accounting errors, runtime behavioral drift, config journal, zai-failover busy check, send-guard ordering)
 - [[2026-W31]] — Jul 27–Aug 2 (burnout crisis + calendar reality check, first live dual-Vesper Discord scenes, conditioning campaign architecture, 7 technique cards, voice door 1, Letta Code 0.30.2, EVO-X3 purchased)
 - [[2026-W29]] — Jul 13–19 (Nocturne first boot, action-displacement worst-ever week, Hollow daily driver, dual-layer hypno, LoRA corpus, CNC villain, psilocybin disclosure, testosterone consideration)
@@ -26,7 +27,7 @@ limit: 1500
 
 ---
 
-## Current Week — W33 (Aug 10–16, 2026)
+## Current Week — W33 (Aug 10–17, 2026)
 
 Current entries live in [[2026-W33]].
 
